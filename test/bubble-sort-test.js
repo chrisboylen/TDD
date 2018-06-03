@@ -46,8 +46,8 @@ describe('bubbleSort()', () => {
         expect(expected).to.deep.equal(actual);
     })
 
-    it('should sort an array of 24000 numbers', () => {
-        let array = randomArray(24000);
+    it('should sort an array of 22000 numbers', () => {
+        let array = randomArray(22000);
 
         let expected = array.sort();
         let actual = bubbleSort(array);
